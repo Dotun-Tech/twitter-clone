@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#tweet-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+#tweet-input {
+  flex: 1;
+  padding: 6px;
+}
+
+#feed .tweet {
+  background: #e8f5fe;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
